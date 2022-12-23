@@ -8,7 +8,7 @@ dropdownButton.addEventListener("click", () => {
 });
 mark.addEventListener("click", () => {
   dropdownMenu.classList.toggle("hide");
-});
+
 Items.forEach((n) => {
   n.addEventListener('click', () => {
     dropdownMenu.classList.toggle('hide');
