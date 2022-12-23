@@ -135,7 +135,7 @@ sign.addEventListener("click", () => {
   popupWindow.classList.toggle('pophide');
 });
 
-const form = document.querySelector('form');
+const form = document.querySelector(form);
 const email = document.querySelector('input[type="email"]');
 const msg = document.querySelector('form .message');
 const name = document.querySelector('input[type="text"]');
